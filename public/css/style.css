@@ -1,0 +1,190 @@
+/* font-family: 'Dosis', sans-serif;
+font-family: 'Source Code Pro', monospace; */
+
+body {
+  font-family: "Source Code Pro";
+  text-align: center;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Dosis", sans-serif;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+/* Containers */
+
+.container-fluid {
+  padding: 7% 15%;
+}
+
+/* Headings */
+
+.big-heading {
+  font-family: "Source Code Pro", monospace;
+  font-size: 3.2rem;
+  line-height: 1.5;
+  letter-spacing: 4px;
+  word-spacing: 4px;
+  margin-bottom: 30px;
+  padding-top: 50px;
+}
+
+/* Sections */
+
+.colored-section {
+  min-height: 100vh;
+  background-image: url(https://images.pexels.com/photos/5088017/pexels-photo-5088017.jpeg?cs=srgb&dl=pexels-olia-danilevich-5088017.jpg&fm=jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.white-section {
+  background-color: #fff;
+  min-height: 90vh;
+  background-size: cover;
+  background-position: center;
+  padding-top: 2px;
+}
+
+/* Navigation Bar */
+.navbar-light .navbar-toggler-icon {
+    color: #310b0b;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #310b0b;
+}
+
+.navbar {
+  padding: 0 0 4.5rem;
+  text-transform: uppercase;
+  color: #310b0b;
+}
+
+
+.navbar-brand {
+  font-family: "Source Code Pro", monospace;
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #310b0b;
+}
+
+
+.nav-item {
+  padding: 0 18px;
+  color: #310b0b;
+}
+
+
+.nav-link {
+  font-size: 1.5rem;
+  font-family: "Source Code Pro", monospace;
+  font-weight: bold;
+  color: #310b0b;
+}
+ 
+
+
+/* Buttons */
+
+.apply-button {
+  margin: 5% 3% 5% 5;
+  background: #eeb76b;
+  transition: 0.5s;
+  word-spacing: 4px;
+  letter-spacing: 2px;
+
+}
+.apply-button:hover {
+    transition: 0.5s;
+
+    background: #9c3d54;
+  
+  }
+  
+
+
+
+/* Title Section */
+
+#title {
+  color: #9c3d54;
+  text-align: left;
+}
+
+#title .container-fluid {
+  padding: 3% 15% 7%;
+}
+
+/* Title Image */
+
+.title-image {
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 30%;
+}
+
+/* Gallery */
+
+.cbox {
+    margin-top: 50px;
+    
+
+  
+    background-color: #a2b29f;
+   
+    
+    -webkit-box-shadow: 0px 0px 23px -1px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 0px 23px -1px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 23px -1px rgba(0, 0, 0, 0.75);
+  }
+  .card-header{
+    /* background-image: url(/public/img/f1.jpg); */
+    height: 300px;
+    width: auto;
+    background-size: cover;
+    background-position: center;
+   
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+
+  .row{
+      padding: 30px 20px;
+      margin: auto;
+  }
+
+@media (max-width: 1028px) {
+  #title {
+    text-align: center;
+  }
+
+  .title-image {
+    position: static;
+    transform: rotate(0);
+  }
+}
+
+
+@media (min-width: 1000px){
+    .card-deck .card {
+      
+        
+}
+}
